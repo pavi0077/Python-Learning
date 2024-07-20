@@ -1,0 +1,38 @@
+temp=int(input("Enter temperature: "))
+
+if(temp>30):
+    print("Wear light clothing.")
+elif((temp>20)and(temp<30)):
+    print("Wear a t-shirt and jeans.")
+elif((temp>10)and(temp<20)):
+    print("Wear a jacket.")
+elif(temp<10):
+    print("Wear a coat.")
+
+
+
+age=int(input("Enter age: "))
+
+if(age<13):
+    print("Child.")
+elif(age>13) and (age<19):
+    print("Teenager.")
+elif(age<20) and(age<59):
+    print("Adult.")
+elif(age==60)or(age>60):
+    print("Senior.")
+    
+Question:Write a program that evaluates a student's grade based on the score.
+If the score is 90 or above, the grade is "A."
+If the score is between 80 and 89, the grade is "B."
+If the score is between 70 and 79, the grade is "C."
+If the score is between 60 and 69, the grade is "D."
+If the score is below 60, the grade is "F."
+
+
+Scenario 4: Speeding Fine Calculation
+Question:Write a program to calculate the speeding fine.
+If the speed is less than or equal to the speed limit, the fine is $0.
+If the speed is up to 10 mph over the speed limit, the fine is $50.
+If the speed is between 11 and 20 mph over the speed limit, the fine is $100.
+If the speed is more than 20 mph over the speed limit, the fine is $200.
